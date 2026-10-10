@@ -1,0 +1,41 @@
+{
+  "dataset": {
+    "name": "Optical Recognition of Handwritten Digits",
+    "source": "UCI Optical Recognition of Handwritten Digits via scikit-learn",
+    "samples": 1797,
+    "image_shape": [
+      8,
+      8
+    ],
+    "classes": 10,
+    "split_sizes": {
+      "train": 1257,
+      "validation": 270,
+      "test": 270
+    },
+    "seed": 42
+  },
+  "logistic_regression": {
+    "accuracy": 0.9740740740740741,
+    "macro_precision": 0.974042328042328,
+    "macro_recall": 0.9739214489214489,
+    "macro_f1": 0.9738482867894632,
+    "log_loss": 0.1111431574288455,
+    "training_seconds": 0.02407207400005973
+  },
+  "numpy_cnn": {
+    "accuracy": 0.9962962962962963,
+    "macro_precision": 0.9964285714285716,
+    "macro_recall": 0.9961538461538462,
+    "macro_f1": 0.9962210338680928,
+    "log_loss": 0.03629031519493686,
+    "training_seconds": 12.296152247999999,
+    "epochs_completed": 70
+  },
+  "uncertainty_policy": {
+    "confidence_threshold": 0.85,
+    "coverage": 0.9629629629629629,
+    "accepted_accuracy": 0.9961538461538462,
+    "rejected_images": 10
+  }
+}
