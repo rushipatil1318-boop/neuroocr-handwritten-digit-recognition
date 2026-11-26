@@ -65,7 +65,6 @@ flowchart TD
 ```text
 neuroocr-handwritten-digit-recognition/
 ├── .github/workflows/       # Automated testing workflow
-├── data/                    # Dataset information
 ├── models/                  # Saved trained models
 ├── notebooks/               # Executed end-to-end notebook
 ├── results/                 # Metrics, graphs and predictions
